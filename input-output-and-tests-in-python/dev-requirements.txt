@@ -1,0 +1,10 @@
+#flake8: serve para checar o erro do codigo, complexidade e formatacao
+flake8==6.1.0
+# black: serve para corrigir a identacao no python 
+black==23.7.0
+# pytest: serve para rodar testes em python 
+pytest==7.4.0
+# o venv no pytho cria um ambiente virtual e instala os pacotes de desenvolvimento com o seguinte comando
+# no terminal python3 -m venv .venv 
+# esse comando serve para ativar o ambiente virtual source .venv/bin/activate 
+# esse comando serve para instalar os pacotes: python3 -m pip install -r dev-requierements.txt
